@@ -8,10 +8,23 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      screens: {
+        'sm-md': '1050px',
+      },
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+      },
+      backgroundColor: {
+        primary: '#0F183F',
+        secondary: '#D72E2F',
+      },
+      textColor: {
+        primary: '#0F183F',
+        secondary: '#D72E2F'
+      },
+      borderColor: {
+        primary: '#0F183F',
+        secondary: '#D72E2F'
       },
     },
   },
